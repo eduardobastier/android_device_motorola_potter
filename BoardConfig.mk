@@ -53,7 +53,7 @@ BOARD_KERNEL_SEPARATED_DT := true
 TARGET_CUSTOM_DTBTOOL := dtbTool_moto
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_CONFIG := potter_defconfig
+TARGET_KERNEL_CONFIG := elementalx_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 
 # Audio
